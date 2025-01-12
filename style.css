@@ -6,6 +6,8 @@
 
   body {
     height: 100vh;
+    background-color: #FAFAF9;
+    font-family: 'Sora';
   }
 
   .author-info {
@@ -17,4 +19,30 @@
 
   .author-info a {
     text-decoration: none;
+    position: static;
+    bottom:20px;
+  }
+  #main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 162px;;
+  }
+  #info-container{
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    text-align: left;
+    width: 37rem;
+  }
+  #info-container h1{
+    font-size: 2.25rem;
+  }
+  #info-container ul{
+    list-style: none;
+  }
+  .card{
+    width: 24rem;
+    padding: 20px 40px;
+    background-color: #FFFFFF;
   }
