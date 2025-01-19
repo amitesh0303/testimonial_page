@@ -81,12 +81,30 @@ body {
   margin-right: 8px
 }
 
+#testimonial-container{
+  display: flex;
+  flex-direction: column;
+  color:#52525A;
+}
+
+#testimonial-container h3{
+  color:#18181B;
+  padding: 8px 0;
+  font-family: 'Sora';
+  font-weight: 600;
+}
+#testimonial-container p{
+  line-height: 27px;
+}
+
 .card {
   width: 24rem;
-  padding: 30px ;
+  padding: 28px 40px;
   background-color: #FFFFFF;
   border-radius: 20px;
   margin:20px;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+
 }
 
 .card h3{
@@ -94,4 +112,22 @@ body {
 }
 .card p{
   
+}
+
+#card-1{
+  margin-left: 200px;
+}
+.card2{
+  
+}
+
+#logo-1{
+  display: flex;
+  flex-direction: row;
+  gap:25px;
+}
+#logo-2{
+  display: flex;
+  flex-direction: row;
+  gap:25px;
 }
