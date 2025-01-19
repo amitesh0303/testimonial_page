@@ -1,48 +1,97 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    height: 100vh;
-    background-color: #FAFAF9;
-    font-family: 'Sora';
-  }
+body {
+  height: 100vh;
+  background-color: #FAFAF9;
+  font-family: 'Sora';
+}
 
-  .author-info {
-    font-size: 14px;
-    text-align: center;
-    margin-top: 16px;
-    color: rgb(55, 65, 81);
-  }
+#big-star {
+  height: 40px;
+  width: 40px;
+  background-color: #F5C044;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-left: 0;
+}
 
-  .author-info a {
-    text-decoration: none;
-    position: static;
-    bottom:20px;
-  }
-  #main-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 162px;;
-  }
-  #info-container{
-    display: flex;
-    flex-direction: column;
-    text-wrap: wrap;
-    text-align: left;
-    width: 37rem;
-  }
-  #info-container h1{
-    font-size: 2.25rem;
-  }
-  #info-container ul{
-    list-style: none;
-  }
-  .card{
-    width: 24rem;
-    padding: 20px 40px;
-    background-color: #FFFFFF;
-  }
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+  position: static;
+  bottom: 20px;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 162px;
+  ;
+}
+
+#info-container {
+  display: flex;
+  flex-direction: column;
+  text-wrap: wrap;
+  text-align: left;
+  width: 37rem;
+}
+
+#info-container h1 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#info-container p {
+  font-size: 1.25rem;
+  color: #52525A;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+#info-container ul {
+  list-style: none;
+  color: #52525A;
+}
+
+#info-container ul>li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-left: 0;
+}
+
+#info-container ul>li>img {
+  margin-right: 8px
+}
+
+.card {
+  width: 24rem;
+  padding: 30px ;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  margin:20px;
+}
+
+.card h3{
+
+}
+.card p{
+  
+}
